@@ -21,6 +21,7 @@ def dicho( epsilon, a, b):
         print("------------------------------")
         print("i="+str(i))
         print("aa="+str(aa)+" b="+str(bb))
+        print("xn+1="+str((bb+aa)/2))
         fa=f(a)
         fb=f(b)
         #np.append(listeX,float((a+b)/2))
@@ -42,15 +43,3 @@ def dicho( epsilon, a, b):
                 aa=float((aa+bb)/2)
 
     print("Resultat : x="+str(x0))
-        #if derivee<0:
-        #    print("debug")
-        #    if f(a)>f(b):
-        #        aa=float((aa+bb)/2)
-        #    elif derivee>0:
-        #        bb=float((aa+bb)/2)
-        #if derivee>0:
-        #    if derivee>0:
-        #        bb=float((aa+bb)/2)
-        #    elif derivee>0:
-        #        aa=float((aa+bb)/2)
-    #print(listeX)
